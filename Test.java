@@ -28,4 +28,17 @@ public class Test
             index = index + 1;
         }
     }
+    /**
+     * Suma los valores comprendidos entre 0 y 10
+     */
+    public void sumValues(){
+        int contador = 0;
+        int resultado = 0;
+        while(contador <= 10){
+            resultado = resultado + contador;
+            contador = contador + 1;
+        }
+        System.out.println("Suma de valores entre 0 y 10: " + resultado);
+        
+    }
 }
